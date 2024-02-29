@@ -10,3 +10,6 @@ lean_lib «Leandojo» where
 @[default_target]
 lean_exe «leandojo» where
   root := `Main
+
+require mathlib from git
+  "https://github.com/leanprover-community/mathlib4"
